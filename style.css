@@ -1,0 +1,118 @@
+ .text{
+    color: rgb(34, 156, 156);
+    margin-left:39%;
+    margin-top: 6%;
+ }
+ .button01{
+    background-color: rgb(250, 232, 232);
+     
+    width: 100px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;   
+    margin-left: 10%;
+    margin-top: 10px;
+    
+ }
+ img {
+    width: 200px;  
+    height: 200px;  
+    border-radius: 50%;  
+    object-fit:scale-down;  
+    margin-left: 40%;
+  }
+ input{
+    border-radius: 20%;
+     
+ }
+     .inpt{
+        margin-left: 60px;
+        display:inline-block;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: large;
+     }
+
+     #text01{ 
+        width: 200px;  
+           
+       
+        margin-left: 40%;
+        color: rgb(241, 240, 241);
+        background-color: rgb(18, 62, 70);
+     }
+     #text02{
+        width: 300px;  
+        height: 200px;  
+        border-radius: 50%;  
+        object-fit:scale-down;  
+        margin-left: 40%;
+ 
+     }
+     #text1{
+        width: 200px;  
+        border-radius: 42%;  
+        object-fit:scale-down;  
+        margin-left: 43%;
+        color: rgb(16, 85, 85);
+
+     }
+     #text2{
+        width: 200px;  
+        border-radius: 42%;  
+        object-fit:scale-down;  
+        margin-left: 41%;
+        color: rgb(62, 159, 189);
+     }
+
+    
+    
+     .para{
+        width: 200px;  
+        border-radius: 10%;    
+        margin-left: 39%;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(141, 119, 128);
+
+     }
+     .it{
+        margin-left: 13%;
+        margin-bottom: 11%;
+        font-weight: bold;
+        color: rgb(177, 112, 33);
+        font-size: medium;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+   body{
+      background-color: rgba(218, 208, 208, 0.932);
+   }
+   .logo {
+      position: absolute;
+      bottom: 820;
+      right: 1360px;
+      width: 130px;  
+      height: auto
+      
+   }
+    
+   #welc {
+      margin-left: 45%;
+      margin-right: 50%;
+      margin-top: 3000px;
+      font-size: 250%;
+      font-family: 'Times New Roman', Times, serif;
+      color: aqua;
+      background-color: rgb(192, 83, 156);
+     
+     
+   }
+   .final {
+      font-size: large;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   #stl{
+      font-size: large;
+      font-weight: 100;
+   }

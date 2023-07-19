@@ -3,23 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="shortcut icon" type="image" href="./rating.png"/>
+    
     <title>Document</title>
+        <!-- Logo -->
+        <img class="logo" src="./LOOOO-removebg.png" alt="Logo" />
   </head>
+ 
   <body>
+    <h7 id="welc">WELCOME!</h7>
+  
     <!--Create the navbar-->
     <nav>
-      <button>home</button>
-      <button>about</button>
-      <button>work</button>
-      <button>resume</button>
-      <button><a href="#contact" >contact</a></button>
+      <button class="button01">home</button>
+      <button class="button01">about</button>
+      <button class="button01">work</button>
+      <button class="button01">resume</button>
+      <button class="button01"><a href="#contact">contact</a></button>
+       
+    </br>
     </nav>
     <!--partie about-->
     <div>
-      <h1>siwar chebchoub</h1>
-      <h2>age:21ans</h2>
-      <h3>Natonalité:Tunisienne</h3>
-      <p>
+      <h1 class="text">siwar chebchoub</h1>
+      <h2 id="text1">age:21ans</h2>
+      <h3 id="text2">Nationalité:Tunisienne</h3>
+      
+      <img src="./siwar.jpg" alt="photo" />
+         <!--partie work-->
+    <div>
+      <p class="para"><span class="para">web</span> developer</P>
+    </div>
+      <h4 id="text01"> <ul>DESCRIPTION:</ul></h4>
+      <p id="text02">
         I am a dynamic and competent individual undergoing web development
         training at GOMYCODE. With a strong motivation for learning, I am fully
         committed to acquiring the necessary skills. I embrace the evolving
@@ -28,48 +46,52 @@
         ability to succeed in the field.
       </p>
       <br />
-      <img
-        src=" https://cdn.pixabay.com/photo/2018/05/24/15/33/business-3426923_960_720.png"
-        alt="photo"
-      />
+      
     </div>
-    <!--partie work-->
-    <div>
-      <p><span>web</span> developer</p>
-    </div>
-    <hr />
+ 
     <!--partie resume-->
     <div>
-      <ul>
-        <li><u>expérience</u>:débutante dans le domaine</li>
-        <li><u>diplome:</u>GOMYCODE</li>
-        <li><u>skills</u>:HTML,CSS,JAVASCRIPT,...</li>
-      </ul>
+       
+        <u class="it"><b>expérience</b></u>:débutante dans le domaine
+         <u class="it" ><b>diplome</b></u>GOMYCODE
+        <u class="it"><b>skills</b></u>:HTML,CSS,JAVASCRIPT,...
+       
     </div>
     <!--partie contact-->
     <div id="contact">
       <hr />
       <form>
-        <label>name</label>
-        <input type="text" placeholder="siwar" />
-        <label>email</label>
-        <input type="email" />
-        <label>password</label>
-        <input type="password" />
-        <label>tel</label>
-        <input type="number" />
+        <div class="inpt">
+          <label>name</label>
+          <input type="text"  />
+        </div>
+
+        <div class="inpt">
+          <label>email</label>
+          <input type="text" />
+        </div>
+        <div class="inpt">
+          <label>password</label>
+          <input type="password" />
+        </div>
+        <div class="inpt">
+          <label>tel</label>
+          <input type="number" />
+        </div>
       </form>
     </div>
     <!--partie footer-->
     <div class="footer">
       <hr />
-      <select>
+      <select id="stl">
         <option>email</option>
         <option>name</option>
       </select>
-      <h5><U>NUMBER:</U>70 765 647</h5>
-      <h5><u>EMAIL:</u>Anonyme01@gmail.com</h5>
-      <h5><u>ADRESS:</u>La Gouette</h5>
+      <h5 class="final"><u>NUMBER:</u>70 765 647</h5>
+      <h6 class="final"><u>EMAIL:</u>Anonyme01@gmail.com</h6>
+      <h7 class="final"><u><b>ADRESS:</u>La GouLette</b></h7>
+       
     </div>
+ 
   </body>
 </html>
